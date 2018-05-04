@@ -1,33 +1,36 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "title": "Place",
-  "description": "A place with coordinates and comments",
-  "type": "object",
-  "properties": {
-    "name": {
-      "type": "string",
-      "description": "The name of the place"
+  "title": "List of places",
+  "description": "A list of places with coordinates and comments",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties":{
+      "name": {
+        "type": "string",
+        "description": "The name of the place"
+      },
+      "longitude": {
+        "type": "number"
+      },
+      "latitude": {
+        "type": "number"
+      },
+      "description": {
+        "type": "string",
+        "description": "Description of the place"
+      },
+      "comments": {
+        "type": "string",
+        "description": "Any comments we want to leave for the place"
+      },
+      "phoneNumber": {
+        "type": "number"
+      },
+      "website": {
+        "type": "string"
+      }
     },
-    "longitude": {
-      "type": "number"
-    },
-    "latitude": {
-      "type": "number"
-    },
-    "description": {
-      "type": "string",
-      "description": "Description of the place"
-    },
-    "comments": {
-      "type": "string",
-      "description": "Any comments we want to leave for the place"
-    },
-    "phoneNumber": {
-      "type": "number"
-    },
-    "website": {
-      "type": "string"
-    },
-  },
-  "required": ["name","longitude","latitude"]
+    "required": ["name","longitude","latitude"]
+  }
 }
