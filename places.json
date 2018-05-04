@@ -10,5 +10,20 @@
     "longitude": 51.5363132,
     "latitude": -0.1060208,
     "website": "holypitta.com"
+  },
+  {
+    "name": "The Real Greek - Reading",
+    "longitude": 51.453747,
+    "latitude": -0.9718799
+  },
+  {
+    "name": "Meat the Greek",
+    "longitude": 51.2349074,
+    "latitude": -0.5754733
+  },
+  {
+    "name": "The Real Greek - London",
+    "longitude": 51.5081402,
+    "latitude": -0.0976618
   }
 ]
